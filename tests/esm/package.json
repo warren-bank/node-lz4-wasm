@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test":      "npm run test:js && npm run test:wasm && npm run test:any",
+    "test:js":   "node test-js.js   > logs/test-js.log 2>&1",
+    "test:wasm": "node test-wasm.js > logs/test-wasm.log 2>&1",
+    "test:any":  "node test-any.js  > logs/test-any.log 2>&1"
+  }
+}

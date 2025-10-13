@@ -1,0 +1,4 @@
+LZ4BlockWASM = function
+LZ4BlockWASM.prototype.encodeBlock = function
+LZ4BlockWASM.prototype.decodeBlock = function
+bytesInUse = 65536

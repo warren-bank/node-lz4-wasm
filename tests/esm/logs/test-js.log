@@ -1,0 +1,4 @@
+LZ4BlockJS = function
+LZ4BlockJS.prototype.encodeBlock = function
+LZ4BlockJS.prototype.decodeBlock = function
+bytesInUse = 0

@@ -1,0 +1,5 @@
+lz4BlockCodec = object
+lz4BlockCodec.createInstance = function
+lz4BlockCodec.createInstance('js') = LZ4BlockJS
+lz4BlockCodec.createInstance('wasm') = LZ4BlockWASM
+lz4BlockCodec.createInstance() = LZ4BlockWASM

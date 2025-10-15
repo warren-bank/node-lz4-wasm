@@ -16,7 +16,7 @@ This release includes an [unmodified copy](./dist/web/) of [his library](https:/
 
 npm:
 ```bash
-  npm install --global "@warren-bank/lz4-wasm"
+  npm install "@warren-bank/lz4-wasm"
 ```
 
 #### Usage
